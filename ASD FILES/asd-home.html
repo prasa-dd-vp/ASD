@@ -1,0 +1,233 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <title>DEV CONNECT PROGRAM</title>
+  </head>
+  <body>
+    <script src="asd-js.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+    <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 700px; width: 1680px;">
+    <img class="parallax-slider" src="autismimg.jpg" style="transform: translate3d(0px, 0px, 0px); position: absolute; top: -200px; left: 0px; height: 1300px; width: 1400px; max-width: none;">
+    </div>
+    
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+    <div class="container" id="scrollnav">
+
+      <!-- Navbar: Brand -->
+      <a class="navbar-brand navbar-brand_2 mr-0 d-none font-italic text-white" id="title" href="#">Vocational suggestions</a> 
+
+      <!-- Navbar: Toggler -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Navbar: Collapse -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Navbar navigation: Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-dark" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#autism">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="news-asd.html">News</a>
+          </li>
+        </ul>
+
+        <!-- Brand name -->
+        <a class="navbar-brand navbar-brand_2 mr-0 font-italic d-none d-lg-flex text-dark" id="title" href="#">
+          Vocational Suggestions
+        </a>
+
+        <!-- Navbar navigation: Right -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#"></a>
+          </li>
+          <li class="nav-item u-header__nav-item-btn">
+                <a class="btn btn-md btn-success text-white" id="signinbtn" data-toggle="modal" href="#signupModal" role="button" data-modal-target="#signupModal" data-overlay-color="#151b26">
+                  <span class="fa fa-user mr-1"></span>
+                  Sign in
+                </a>
+              </li>
+        </ul>
+
+      </div> <!-- / .navbar-collapse -->
+
+    </div> <!-- / .container -->
+  </nav>
+
+  <section class="section section_header" style="padding-bottom: 235px; padding-top: 275px;" data-parallax="scroll" data-image-src="autism-img.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          
+          <!-- Heading -->
+          <h1 class="section__heading section_header__heading text-center">
+          </h1>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <header class="modal-header mb-5">
+        <h3 class="modal-title ml-auto mb-0" id="exampleModalLabel">Please Sign In</h3>
+        <button type="button" class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </header>
+	  <form id="loginform">
+      <div class="modal-body">
+        <div class="js-form-message mb-3">
+            <div class="js-focus-state input-group form">
+              <div class="input-group-prepend form__prepend">
+                <span class="input-group-text form__text">
+                  <span class="fa fa-user form__text-inner"></span>
+                </span>
+              </div>
+              <input type="email" class="form-control form__input" name="email" placeholder="Email" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success" required>
+            </div>
+          </div>
+        <div class="js-form-message mb-3">
+            <div class="js-focus-state input-group form">
+              <div class="input-group-prepend form__prepend">
+                <span class="input-group-text form__text">
+                  <span class="fa fa-lock form__text-inner"></span>
+                </span>
+              </div>
+              <input type="password" class="form-control form__input" name="password" placeholder="Password" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success" required>
+            </div>
+          </div>
+		  <div class="js-form-message mb-3">
+            <div class="js-focus-state input-group form">
+              <div class="input-group-prepend form__prepend">
+                <span class="input-group-text form__text">
+                  <span class="fa fa-user form__text-inner"></span>
+                </span>
+              </div>
+			  <select id="option" class="dropdown" required>
+                 <option value="volvo" selected>Parent</option>
+                 <option value="saab">Trainer</option>
+              </select>
+              </div>
+          </div> 
+		 
+        <div class="row mb-5">
+            <div class="col-8">
+              <!-- Checkbox -->
+              <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
+                <input type="checkbox" class="custom-control-input" id="rememberMeCheckbox">
+                <label class="custom-control-label" for="rememberMeCheckbox">
+                  Remember Me
+                </label>
+              </div>
+              <!-- End Checkbox -->
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <a href="frame.html" class="btn btn-block btn-success" onclick="$('#signupModal').modal('hide')">Sign In</a>
+            <!--<button type="submit" class="btn btn-block btn-success">Signin</button>-->
+          </div>
+
+
+          <div class="text-center u-divider-wrapper my-3">
+            <span class="u-divider u-divider--xs u-divider--text">OR</span>
+          </div>
+
+             <div class="row mx-gutters-2 mb-4">
+            <div class="col-sm-6 mb-2 mb-sm-0">
+              <button type="button" class="btn btn-md btn-outline-primary btn-block btn-facebook">
+                <span class="fa fa-facebook-f ml-2 mr-2"></span>
+                Signup with Facebook
+              </button>
+            </div>
+            <div class="col-sm-6">
+              <button type="button" class="btn btn-md btn-outline-info btn-block btn-twitter">
+                <span class="fa fa-twitter ml-2 mr-2"></span>
+                Signup with Twitter
+              </button>
+            </div>
+          </div>
+
+      </div>
+	  </form>
+    </div>
+  </div>
+</div>
+  
+  <section class="section section_info section_info_opposite section_no-padding_bottom bg-white p-5" id="autism" style="margin-top: 40px;">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+  
+          <!-- Heading -->
+          <h2 class="section__heading text-center">
+            What is Autism Disorder ?
+          </h2>
+
+   <div class="row">
+      
+      <p>Autism, or autism spectrum disorder (ASD), refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication.</p>
+      
+    </div>
+    <div class="row">
+      
+      <p>We know that there is not one autism but many subtypes, most influenced by a combination of genetic and environmental factors. Because autism is a spectrum disorder, each person with autism has a distinct set of strengths and challenges. The ways in which people with autism learn, think and problem-solve can range from highly skilled to severely challenged. Some people with ASD may require significant support in their daily lives, while others may need less support and, in some cases, live entirely independently.</p>
+      
+    </div>
+    <div class="row">
+       
+      <p>Several factors may influence the development of autism, and it is often accompanied by sensory sensitivities and medical issues such as gastrointestinal (GI) disorders, seizures or sleep disorders, as well as mental health challenges such as anxiety, depression and attention issues.</p>
+      
+    </div>
+	
+	 <div class="row">
+       
+		<p>Indicators of autism usually appear by age 2 or 3. Some associated development delays can appear even earlier, and often, it can be diagnosed as early as 18 months. Research shows that early intervention leads to positive outcomes later in life for people with autism.</p>
+    </div>
+	
+<br>
+</div>
+</div>
+</div>
+</section>
+
+  <footer class="section section_footer">
+    <div class="container">
+      <div class="row">
+        <div>
+<h4 style=" font-style:italic ;font-family:Times New Roman, Times, serif;" class="text-white">“It takes a village to raise a child. It takes a child with autism to raise the consciousness of the village” </h4>-<i style="text-align:right;">Coach Elaine Hall</i>
+      <hr>
+	  <h4 style=" font-style:italic ;font-family:Times New Roman, Times, serif;" class="text-white">"Why fit in when you are born to standout"
+	  <br><i>-Dr.seuss</i>
+		<hr>	
+	  <h4 style=" font-style:italic ;font-family:Times New Roman, Times, serif;" class="text-white">"I am different, NOt less"
+	  <br><i>-Dr.temple </i>
+		<hr>																									
+</div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+ </body>
+</html>

@@ -1,0 +1,188 @@
+{% load staticfiles %}
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+ background-image: url("pic2.PNG");
+ 
+  
+  
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+
+}
+.text-block {
+  position: absolute;
+  top: 10px;
+  left: 380px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+div{
+	
+	text-color: black;
+	text-align: justify;
+	color:blue;
+ font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+
+
+}
+  </style>
+  </head>
+<body >
+<script src="asd-js.js"></script>
+<div class="text-block"> 
+<h1 style=" text-align: center;"> TAKE A SURVEY<H1>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Cooking 
+        </button>
+      </h2>
+    </div>
+
+    <div  id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+	<form>
+	Closes the hand around an object placed in a hand<br><br>
+		<input type="radio" name="cooking" id="c11"value=0>No &nbsp
+		<input type="radio" name="cooking" id="c12" value=1>Rarely &nbsp
+		<input type="radio" name="cooking" id="c13" value=2>Sometimes &nbsp
+		<input type="radio" name="cooking" id="c14" value=3>Very well &nbsp
+		<br><br>
+	Reaches for and graps objects.<br><br>
+		<input type="radio" name="cooking1" id="c21" value=0>No &nbsp
+		<input type="radio" name="cooking1" id="c22" value=1>Rarely &nbsp
+		<input type="radio" name="cooking1" id="c23" value=2>Sometimes &nbsp
+		<input type="radio" name="cooking1" id="c24" value=3>Very well &nbsp
+		<br><br>
+	Uses both the hands at the same time when handling an object<br><br>
+		<input type="radio" name="cooking2" id="c31" value=0>No &nbsp
+		<input type="radio" name="cooking2" id="c32" value=1>Rarely &nbsp
+		<input type="radio" name="cooking2" id="c33" value=2>Sometimes &nbsp
+		<input type="radio" name="cooking2" id="c34"value=3>Very well &nbsp
+		<br><br>
+	Picks up small objects using thumbs and fingers only<br><br>
+	    <input type="radio" name="cooking3" id="c41" value=0>No &nbsp
+		<input type="radio" name="cooking3" id="c42" value=1>Rarely &nbsp
+		<input type="radio" name="cooking3" id="c43" value=2>Sometimes &nbsp
+		<input type="radio" name="cooking3" id="c44" value=3>Very well &nbsp
+		<br><br>
+	Carries cups/plates without spilling<br><br>
+		<input type="radio" name="cooking4" id="c51" value=0>No &nbsp
+		<input type="radio" name="cooking4" id="c52" value=1>Rarely &nbsp
+		<input type="radio" name="cooking4" id="c53" value=2>Sometimes &nbsp
+		<input type="radio" name="cooking4" id="c54" value=3>Very well &nbsp
+		<br><br>
+	  </form>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Dancing/Drama artist
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+	<form>
+     Makes experssions of anger/happiness etc on face as per situation.<br><br>
+	    <input type="radio" name="d1" id="d11">No &nbsp
+		<input type="radio" name="d1" id="d12" >Rarely &nbsp
+		<input type="radio" name="d1" id="d13">Sometimes &nbsp
+		<input type="radio" name="d1" id="d14">Very well &nbsp
+		<br><br>
+	 Changes the tone and rythm of voice and hand movements.<br><br>
+		<input type="radio" name="d2" id="d21">No &nbsp
+		<input type="radio" name="d2" id="d22">Rarely &nbsp
+		<input type="radio" name="d2" id="d23">Sometimes &nbsp
+		<input type="radio" name="d2" id="d24">Very well &nbsp
+		<br><br>
+	 Responds to questions Or indicates Yes(or)No.<br><br>
+		<input type="radio" name="d3" id="d31">No &nbsp
+		<input type="radio" name="d3" id="d32">Rarely &nbsp
+		<input type="radio" name="d3" id="d33">Sometimes &nbsp
+		<input type="radio" name="d3" id="d34">Very well &nbsp
+		<br><br>
+	 Imitates actions/words either singularly(or)all at once<br><br>
+	    <input type="radio" name="d4" id="d41">No &nbsp
+		<input type="radio" name="d4" id="d42">Rarely &nbsp
+		<input type="radio" name="d4" id="d43">Sometimes &nbsp
+		<input type="radio" name="d4" id="d44">Very well &nbsp
+		<br><br>
+	 Is flexible with hands, fingers and body<br><br>
+	    <input type="radio" name="d4" id="d51">No &nbsp
+		<input type="radio" name="d4" id="d52">Rarely &nbsp
+		<input type="radio" name="d4" id="d53">Sometimes &nbsp
+		<input type="radio" name="d4" id="d54">Very well &nbsp
+		<br><br>
+		
+	 
+	 
+    </form>
+  </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Drawing/creative writing
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div>
+	  <form>
+	  Is enthusiastic in taking part in writing practices(i.e)grammer education.<br><br>
+	    <input type="radio" name="dr1" id="dr11">No &nbsp
+	    <input type="radio" name="dr1" id="dr12">Rarely &nbsp
+		<input type="radio" name="dr1" id="dr13">Sometimes &nbsp
+		<input type="radio" name="dr1" id="dr14">Very well &nbsp
+		<br><br>
+	  Is interested in writin essays on topics given.<br><br>
+	    <input type="radio" name="dr2" id="dr21">No &nbsp
+		<input type="radio" name="dr2" id="dr22">Rarely &nbsp
+		<input type="radio" name="dr2" id="dr23">Sometimes &nbsp
+		<input type="radio" name="dr2" id="dr24">Very well &nbsp
+		<br><br>
+	  Is creative with answers and depicting his/her thoughts.<br><br>
+	  <input type="radio" name="dr3" id="dr31">No &nbsp
+		<input type="radio" name="dr3" id="dr32">Rarely &nbsp
+		<input type="radio" name="dr3" id="dr33">Sometimes &nbsp
+		<input type="radio" name="dr3" id="dr34">Very well &nbsp
+		<br><br>
+	  Is enthusiastic towards drawing depictions/figures for given scenario.<br><br>
+	  <input type="radio" name="dr41" id="dr41">No &nbsp
+		<input type="radio" name="dr4" id="dr42">Rarely &nbsp
+		<input type="radio" name="dr4" id="dr43">Sometimes &nbsp
+		<input type="radio" name="dr4" id="dr44">Very well &nbsp
+		<br><br>
+	  Is good with learning vocabulary and playing such games<br><br>
+	   <input type="radio" name="dr5" id="dr51">No &nbsp
+		<input type="radio" name="dr5" id="dr52">Rarely &nbsp
+		<input type="radio" name="dr5" id="dr53">Sometimes &nbsp
+		<input type="radio" name="dr5" id="dr54">Very well &nbsp
+		<br><br>
+		<button class="btn btn-primary p-4" type="submit" id="survey-submit">SUBMIT SURVEY</button>
+	  </form>
+    </div>
+	</div>
+</body>
+</html>

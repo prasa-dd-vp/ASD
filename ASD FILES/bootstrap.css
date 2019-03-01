@@ -1,0 +1,140 @@
+
+.active a, .nav-link:hover{
+	color: #02ffdf !important;
+}
+.navbar-nav > li > a:hover {
+    color: #02ffdf !important;
+}
+.navbar .nav-link {
+    font-family: Lato,sans-serif;
+    font-size: .70rem;
+    font-weight: 700;
+    transition: .1s;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+#title{
+	font-size: 30px;
+}
+#signinbtn{
+	margin-left: 20px;
+	margin-right: 10px;
+
+}
+.navbar-brand{
+	font-family: 'Lobster', cursive;
+	font-size: 3rem !important;
+}
+.section__heading {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+    font-family: 'Patua One', cursive;
+
+}
+.section_header__heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.text-center {
+    text-align: center!important;
+}
+footer{
+	background-color: #000;
+	padding-top: 25px;
+	margin-top: 25px;
+}
+.navbar{
+	background-color: transparent;
+}
+.scrolled{
+  background-color: #000;
+  transition: 0.3s;
+}
+.btn-circle{
+	border-radius:30px;
+}
+.nv_news_list .media {
+    width: 100%;
+    border-bottom: 1px dotted #bfbfbf;
+    float: left !important;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    clear: both;
+}
+.newsBody{
+	overflow:hidden;
+}
+.nv_news_list .newsContent {
+    width: 402px;
+    margin-left: 32px;
+    float: left !important;
+    font-size: 13px;
+}
+.nv_news_list .sub_title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.nv_news_list .newsDate {
+    font-size: 12px;
+}
+ i {
+    color: #02ffdf!important;
+    text-decoration: none;
+    outline: none;
+}
+.nv_news_list h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.global-footer {
+    padding: 30px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.global-footer__links>li>a {
+    display: inline-block !important;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ccc;
+}
+.global-footer__region__label {
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    color: #CCC;
+}
+
+.global-footer__links>li {
+    position: relative;
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+.global-footer__copyright {
+    font-size: 12px;
+    line-height: 16px;
+    color: #ccc;
+    clear: both;
+}
+#scroll{
+    overflow-y: scroll;
+}
+td {
+    padding: 1em 1em .75em 1em;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 21px;
+    width: 17%;
+}
+th {
+    padding: 1em 1em .75em 1em;
+    vertical-align: middle;
+    text-align: center;;
+}
+#detail{
+    margin-bottom:70px;
+}
